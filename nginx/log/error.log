@@ -1,422 +1,166 @@
-2021/06/23 11:48:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2021/06/23 11:48:30 [notice] 32#32: gracefully shutting down
-2021/06/23 11:48:30 [notice] 32#32: exiting
-2021/06/23 11:48:30 [notice] 33#33: gracefully shutting down
-2021/06/23 11:48:30 [notice] 34#34: gracefully shutting down
-2021/06/23 11:48:30 [notice] 35#35: gracefully shutting down
-2021/06/23 11:48:30 [notice] 37#37: gracefully shutting down
-2021/06/23 11:48:30 [notice] 36#36: gracefully shutting down
-2021/06/23 11:48:30 [notice] 32#32: exit
-2021/06/23 11:48:30 [notice] 33#33: exiting
-2021/06/23 11:48:30 [notice] 34#34: exiting
-2021/06/23 11:48:30 [notice] 35#35: exiting
-2021/06/23 11:48:30 [notice] 37#37: exiting
-2021/06/23 11:48:30 [notice] 36#36: exiting
-2021/06/23 11:48:30 [notice] 33#33: exit
-2021/06/23 11:48:30 [notice] 34#34: exit
-2021/06/23 11:48:30 [notice] 35#35: exit
-2021/06/23 11:48:30 [notice] 37#37: exit
-2021/06/23 11:48:30 [notice] 36#36: exit
-2021/06/23 11:48:30 [notice] 1#1: signal 17 (SIGCHLD) received from 36
-2021/06/23 11:48:30 [notice] 1#1: worker process 35 exited with code 0
-2021/06/23 11:48:30 [notice] 1#1: worker process 36 exited with code 0
-2021/06/23 11:48:30 [notice] 1#1: signal 29 (SIGIO) received
-2021/06/23 11:48:30 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2021/06/23 11:48:30 [notice] 1#1: worker process 32 exited with code 0
-2021/06/23 11:48:30 [notice] 1#1: worker process 33 exited with code 0
-2021/06/23 11:48:30 [notice] 1#1: worker process 34 exited with code 0
-2021/06/23 11:48:30 [notice] 1#1: worker process 37 exited with code 0
-2021/06/23 11:48:30 [notice] 1#1: exit
-2021/06/23 11:50:10 [notice] 1#1: using the "epoll" event method
-2021/06/23 11:50:10 [notice] 1#1: nginx/1.20.1
-2021/06/23 11:50:10 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
-2021/06/23 11:50:10 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
-2021/06/23 11:50:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2021/06/23 11:50:10 [notice] 1#1: start worker processes
-2021/06/23 11:50:10 [notice] 1#1: start worker process 31
-2021/06/23 11:50:10 [notice] 1#1: start worker process 32
-2021/06/23 11:50:10 [notice] 1#1: start worker process 33
-2021/06/23 11:50:10 [notice] 1#1: start worker process 34
-2021/06/23 11:50:10 [notice] 1#1: start worker process 35
-2021/06/23 11:50:10 [notice] 1#1: start worker process 36
-2021/06/23 11:53:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2021/06/23 11:53:45 [notice] 31#31: gracefully shutting down
-2021/06/23 11:53:45 [notice] 32#32: gracefully shutting down
-2021/06/23 11:53:45 [notice] 33#33: gracefully shutting down
-2021/06/23 11:53:45 [notice] 34#34: gracefully shutting down
-2021/06/23 11:53:45 [notice] 35#35: gracefully shutting down
-2021/06/23 11:53:45 [notice] 36#36: gracefully shutting down
-2021/06/23 11:53:45 [notice] 31#31: exiting
-2021/06/23 11:53:45 [notice] 32#32: exiting
-2021/06/23 11:53:45 [notice] 33#33: exiting
-2021/06/23 11:53:45 [notice] 34#34: exiting
-2021/06/23 11:53:45 [notice] 35#35: exiting
-2021/06/23 11:53:45 [notice] 36#36: exiting
-2021/06/23 11:53:45 [notice] 31#31: exit
-2021/06/23 11:53:45 [notice] 32#32: exit
-2021/06/23 11:53:45 [notice] 33#33: exit
-2021/06/23 11:53:45 [notice] 34#34: exit
-2021/06/23 11:53:45 [notice] 35#35: exit
-2021/06/23 11:53:45 [notice] 36#36: exit
-2021/06/23 11:53:45 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2021/06/23 11:53:45 [notice] 1#1: worker process 31 exited with code 0
-2021/06/23 11:53:45 [notice] 1#1: worker process 32 exited with code 0
-2021/06/23 11:53:45 [notice] 1#1: worker process 34 exited with code 0
-2021/06/23 11:53:45 [notice] 1#1: worker process 35 exited with code 0
-2021/06/23 11:53:45 [notice] 1#1: worker process 36 exited with code 0
-2021/06/23 11:53:45 [notice] 1#1: signal 29 (SIGIO) received
-2021/06/23 11:53:45 [notice] 1#1: signal 17 (SIGCHLD) received from 31
-2021/06/23 11:53:45 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2021/06/23 11:53:45 [notice] 1#1: worker process 33 exited with code 0
-2021/06/23 11:53:45 [notice] 1#1: exit
-2021/06/23 11:53:57 [notice] 1#1: using the "epoll" event method
-2021/06/23 11:53:57 [notice] 1#1: nginx/1.20.1
-2021/06/23 11:53:57 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
-2021/06/23 11:53:57 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
-2021/06/23 11:53:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2021/06/23 11:53:57 [notice] 1#1: start worker processes
-2021/06/23 11:53:57 [notice] 1#1: start worker process 31
-2021/06/23 11:53:57 [notice] 1#1: start worker process 32
-2021/06/23 11:53:57 [notice] 1#1: start worker process 33
-2021/06/23 11:53:57 [notice] 1#1: start worker process 34
-2021/06/23 11:53:57 [notice] 1#1: start worker process 35
-2021/06/23 11:53:57 [notice] 1#1: start worker process 36
-2021/06/23 11:55:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2021/06/23 11:55:48 [notice] 31#31: gracefully shutting down
-2021/06/23 11:55:48 [notice] 32#32: gracefully shutting down
-2021/06/23 11:55:48 [notice] 34#34: gracefully shutting down
-2021/06/23 11:55:48 [notice] 35#35: gracefully shutting down
-2021/06/23 11:55:48 [notice] 33#33: gracefully shutting down
-2021/06/23 11:55:48 [notice] 36#36: gracefully shutting down
-2021/06/23 11:55:48 [notice] 31#31: exiting
-2021/06/23 11:55:48 [notice] 32#32: exiting
-2021/06/23 11:55:48 [notice] 34#34: exiting
-2021/06/23 11:55:48 [notice] 35#35: exiting
-2021/06/23 11:55:48 [notice] 33#33: exiting
-2021/06/23 11:55:48 [notice] 36#36: exiting
-2021/06/23 11:55:48 [notice] 31#31: exit
-2021/06/23 11:55:48 [notice] 32#32: exit
-2021/06/23 11:55:48 [notice] 34#34: exit
-2021/06/23 11:55:48 [notice] 35#35: exit
-2021/06/23 11:55:48 [notice] 33#33: exit
-2021/06/23 11:55:48 [notice] 36#36: exit
-2021/06/23 11:55:48 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2021/06/23 11:55:48 [notice] 1#1: worker process 32 exited with code 0
-2021/06/23 11:55:48 [notice] 1#1: worker process 33 exited with code 0
-2021/06/23 11:55:48 [notice] 1#1: worker process 34 exited with code 0
-2021/06/23 11:55:48 [notice] 1#1: worker process 36 exited with code 0
-2021/06/23 11:55:48 [notice] 1#1: signal 29 (SIGIO) received
-2021/06/23 11:55:48 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2021/06/23 11:55:48 [notice] 1#1: signal 17 (SIGCHLD) received from 31
-2021/06/23 11:55:48 [notice] 1#1: worker process 31 exited with code 0
-2021/06/23 11:55:48 [notice] 1#1: worker process 35 exited with code 0
-2021/06/23 11:55:48 [notice] 1#1: exit
-2022/06/25 13:48:17 [notice] 1#1: using the "epoll" event method
-2022/06/25 13:48:17 [notice] 1#1: nginx/1.22.0
-2022/06/25 13:48:17 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
-2022/06/25 13:48:17 [notice] 1#1: OS: Linux 5.10.76-linuxkit
-2022/06/25 13:48:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2022/06/25 13:48:17 [notice] 1#1: start worker processes
-2022/06/25 13:48:17 [notice] 1#1: start worker process 33
-2022/06/25 13:48:17 [notice] 1#1: start worker process 34
-2022/06/25 13:48:17 [notice] 1#1: start worker process 35
-2022/06/25 13:48:17 [notice] 1#1: start worker process 36
-2022/06/25 13:51:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2022/06/25 13:51:45 [notice] 34#34: gracefully shutting down
-2022/06/25 13:51:45 [notice] 34#34: exiting
-2022/06/25 13:51:45 [notice] 33#33: gracefully shutting down
-2022/06/25 13:51:45 [notice] 35#35: gracefully shutting down
-2022/06/25 13:51:45 [notice] 36#36: gracefully shutting down
-2022/06/25 13:51:45 [notice] 34#34: exit
-2022/06/25 13:51:45 [notice] 33#33: exiting
-2022/06/25 13:51:45 [notice] 33#33: exit
-2022/06/25 13:51:45 [notice] 35#35: exiting
-2022/06/25 13:51:45 [notice] 36#36: exiting
-2022/06/25 13:51:45 [notice] 36#36: exit
-2022/06/25 13:51:45 [notice] 35#35: exit
-2022/06/25 13:51:45 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2022/06/25 13:51:45 [notice] 1#1: worker process 34 exited with code 0
-2022/06/25 13:51:45 [notice] 1#1: signal 29 (SIGIO) received
-2022/06/25 13:51:45 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2022/06/25 13:51:45 [notice] 1#1: worker process 33 exited with code 0
-2022/06/25 13:51:45 [notice] 1#1: worker process 36 exited with code 0
-2022/06/25 13:51:45 [notice] 1#1: signal 29 (SIGIO) received
-2022/06/25 13:51:45 [notice] 1#1: signal 17 (SIGCHLD) received from 35
-2022/06/25 13:51:45 [notice] 1#1: worker process 35 exited with code 0
-2022/06/25 13:51:45 [notice] 1#1: exit
-2022/06/25 14:00:03 [notice] 1#1: using the "epoll" event method
-2022/06/25 14:00:03 [notice] 1#1: nginx/1.22.0
-2022/06/25 14:00:03 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
-2022/06/25 14:00:03 [notice] 1#1: OS: Linux 5.10.76-linuxkit
-2022/06/25 14:00:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2022/06/25 14:00:03 [notice] 1#1: start worker processes
-2022/06/25 14:00:03 [notice] 1#1: start worker process 31
-2022/06/25 14:00:03 [notice] 1#1: start worker process 32
-2022/06/25 14:00:03 [notice] 1#1: start worker process 33
-2022/06/25 14:00:03 [notice] 1#1: start worker process 34
-2022/06/25 14:29:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2022/06/25 14:29:31 [notice] 32#32: gracefully shutting down
-2022/06/25 14:29:31 [notice] 34#34: gracefully shutting down
-2022/06/25 14:29:31 [notice] 33#33: gracefully shutting down
-2022/06/25 14:29:31 [notice] 31#31: gracefully shutting down
-2022/06/25 14:29:31 [notice] 33#33: exiting
-2022/06/25 14:29:31 [notice] 32#32: exiting
-2022/06/25 14:29:31 [notice] 34#34: exiting
-2022/06/25 14:29:31 [notice] 31#31: exiting
-2022/06/25 14:29:31 [notice] 33#33: exit
-2022/06/25 14:29:31 [notice] 32#32: exit
-2022/06/25 14:29:31 [notice] 34#34: exit
-2022/06/25 14:29:31 [notice] 31#31: exit
-2022/06/25 14:29:31 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2022/06/25 14:29:31 [notice] 1#1: worker process 32 exited with code 0
-2022/06/25 14:29:31 [notice] 1#1: signal 29 (SIGIO) received
-2022/06/25 14:29:31 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2022/06/25 14:29:31 [notice] 1#1: worker process 34 exited with code 0
-2022/06/25 14:29:31 [notice] 1#1: signal 29 (SIGIO) received
-2022/06/25 14:29:31 [notice] 1#1: signal 17 (SIGCHLD) received from 31
-2022/06/25 14:29:31 [notice] 1#1: worker process 31 exited with code 0
-2022/06/25 14:29:31 [notice] 1#1: signal 29 (SIGIO) received
-2022/06/25 14:29:31 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2022/06/25 14:29:31 [notice] 1#1: worker process 33 exited with code 0
-2022/06/25 14:29:31 [notice] 1#1: exit
-2022/06/25 14:33:45 [notice] 1#1: using the "epoll" event method
-2022/06/25 14:33:45 [notice] 1#1: nginx/1.22.0
-2022/06/25 14:33:45 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
-2022/06/25 14:33:45 [notice] 1#1: OS: Linux 5.10.76-linuxkit
-2022/06/25 14:33:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2022/06/25 14:33:45 [notice] 1#1: start worker processes
-2022/06/25 14:33:45 [notice] 1#1: start worker process 32
-2022/06/25 14:33:45 [notice] 1#1: start worker process 33
-2022/06/25 14:33:45 [notice] 1#1: start worker process 34
-2022/06/25 14:33:45 [notice] 1#1: start worker process 35
-2022/06/25 14:41:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2022/06/25 14:41:38 [notice] 32#32: gracefully shutting down
-2022/06/25 14:41:38 [notice] 32#32: exiting
-2022/06/25 14:41:38 [notice] 34#34: gracefully shutting down
-2022/06/25 14:41:38 [notice] 34#34: exiting
-2022/06/25 14:41:38 [notice] 33#33: gracefully shutting down
-2022/06/25 14:41:38 [notice] 33#33: exiting
-2022/06/25 14:41:38 [notice] 35#35: gracefully shutting down
-2022/06/25 14:41:38 [notice] 32#32: exit
-2022/06/25 14:41:38 [notice] 34#34: exit
-2022/06/25 14:41:38 [notice] 33#33: exit
-2022/06/25 14:41:38 [notice] 35#35: exiting
-2022/06/25 14:41:38 [notice] 35#35: exit
-2022/06/25 14:41:39 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2022/06/25 14:41:39 [notice] 1#1: worker process 34 exited with code 0
-2022/06/25 14:41:39 [notice] 1#1: signal 29 (SIGIO) received
-2022/06/25 14:41:39 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2022/06/25 14:41:39 [notice] 1#1: worker process 33 exited with code 0
-2022/06/25 14:41:39 [notice] 1#1: worker process 32 exited with code 0
-2022/06/25 14:41:39 [notice] 1#1: signal 29 (SIGIO) received
-2022/06/25 14:41:39 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2022/06/25 14:41:39 [notice] 1#1: worker process 35 exited with code 0
-2022/06/25 14:41:39 [notice] 1#1: exit
-2022/06/25 15:30:14 [notice] 1#1: using the "epoll" event method
-2022/06/25 15:30:14 [notice] 1#1: nginx/1.22.0
-2022/06/25 15:30:14 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
-2022/06/25 15:30:14 [notice] 1#1: OS: Linux 5.10.76-linuxkit
-2022/06/25 15:30:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2022/06/25 15:30:14 [notice] 1#1: start worker processes
-2022/06/25 15:30:14 [notice] 1#1: start worker process 32
-2022/06/25 15:30:14 [notice] 1#1: start worker process 33
-2022/06/25 15:30:14 [notice] 1#1: start worker process 34
-2022/06/25 15:30:14 [notice] 1#1: start worker process 35
-2022/06/25 15:31:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2022/06/25 15:31:49 [notice] 32#32: gracefully shutting down
-2022/06/25 15:31:49 [notice] 33#33: gracefully shutting down
-2022/06/25 15:31:49 [notice] 34#34: gracefully shutting down
-2022/06/25 15:31:49 [notice] 35#35: gracefully shutting down
-2022/06/25 15:31:49 [notice] 33#33: exiting
-2022/06/25 15:31:49 [notice] 34#34: exiting
-2022/06/25 15:31:49 [notice] 35#35: exiting
-2022/06/25 15:31:49 [notice] 33#33: exit
-2022/06/25 15:31:49 [notice] 34#34: exit
-2022/06/25 15:31:49 [notice] 35#35: exit
-2022/06/25 15:31:49 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2022/06/25 15:31:49 [notice] 1#1: worker process 33 exited with code 0
-2022/06/25 15:31:49 [notice] 1#1: worker process 34 exited with code 0
-2022/06/25 15:31:49 [notice] 1#1: worker process 35 exited with code 0
-2022/06/25 15:31:49 [notice] 1#1: signal 29 (SIGIO) received
-2022/06/25 15:31:49 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2022/06/25 15:31:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2022/06/25 15:31:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2022/06/25 15:32:14 [notice] 1#1: using the "epoll" event method
-2022/06/25 15:32:14 [notice] 1#1: nginx/1.22.0
-2022/06/25 15:32:14 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
-2022/06/25 15:32:14 [notice] 1#1: OS: Linux 5.10.76-linuxkit
-2022/06/25 15:32:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2022/06/25 15:32:14 [notice] 1#1: start worker processes
-2022/06/25 15:32:14 [notice] 1#1: start worker process 32
-2022/06/25 15:32:14 [notice] 1#1: start worker process 33
-2022/06/25 15:32:14 [notice] 1#1: start worker process 34
-2022/06/25 15:32:14 [notice] 1#1: start worker process 35
-2022/06/25 15:37:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2022/06/25 15:37:53 [notice] 32#32: gracefully shutting down
-2022/06/25 15:37:53 [notice] 32#32: exiting
-2022/06/25 15:37:53 [notice] 33#33: gracefully shutting down
-2022/06/25 15:37:53 [notice] 34#34: gracefully shutting down
-2022/06/25 15:37:53 [notice] 35#35: gracefully shutting down
-2022/06/25 15:37:53 [notice] 32#32: exit
-2022/06/25 15:37:53 [notice] 33#33: exiting
-2022/06/25 15:37:53 [notice] 33#33: exit
-2022/06/25 15:37:53 [notice] 34#34: exiting
-2022/06/25 15:37:53 [notice] 35#35: exiting
-2022/06/25 15:37:53 [notice] 34#34: exit
-2022/06/25 15:37:53 [notice] 35#35: exit
-2022/06/25 15:37:53 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2022/06/25 15:37:53 [notice] 1#1: worker process 32 exited with code 0
-2022/06/25 15:37:53 [notice] 1#1: signal 29 (SIGIO) received
-2022/06/25 15:37:53 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2022/06/25 15:37:53 [notice] 1#1: worker process 33 exited with code 0
-2022/06/25 15:37:53 [notice] 1#1: signal 29 (SIGIO) received
-2022/06/25 15:37:53 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2022/06/25 15:37:53 [notice] 1#1: worker process 34 exited with code 0
-2022/06/25 15:37:53 [notice] 1#1: signal 29 (SIGIO) received
-2022/06/25 15:37:53 [notice] 1#1: signal 17 (SIGCHLD) received from 35
-2022/06/25 15:37:53 [notice] 1#1: worker process 35 exited with code 0
-2022/06/25 15:37:53 [notice] 1#1: exit
-2022/06/25 15:39:12 [notice] 1#1: using the "epoll" event method
-2022/06/25 15:39:12 [notice] 1#1: nginx/1.22.0
-2022/06/25 15:39:12 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
-2022/06/25 15:39:12 [notice] 1#1: OS: Linux 5.10.76-linuxkit
-2022/06/25 15:39:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2022/06/25 15:39:12 [notice] 1#1: start worker processes
-2022/06/25 15:39:12 [notice] 1#1: start worker process 32
-2022/06/25 15:39:12 [notice] 1#1: start worker process 33
-2022/06/25 15:39:12 [notice] 1#1: start worker process 34
-2022/06/25 15:39:12 [notice] 1#1: start worker process 35
-2022/06/25 16:12:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2022/06/25 16:12:29 [notice] 35#35: gracefully shutting down
-2022/06/25 16:12:29 [notice] 34#34: gracefully shutting down
-2022/06/25 16:12:29 [notice] 33#33: gracefully shutting down
-2022/06/25 16:12:29 [notice] 32#32: gracefully shutting down
-2022/06/25 16:12:29 [notice] 34#34: exiting
-2022/06/25 16:12:29 [notice] 33#33: exiting
-2022/06/25 16:12:29 [notice] 35#35: exiting
-2022/06/25 16:12:29 [notice] 32#32: exiting
-2022/06/25 16:12:29 [notice] 33#33: exit
-2022/06/25 16:12:29 [notice] 34#34: exit
-2022/06/25 16:12:29 [notice] 35#35: exit
-2022/06/25 16:12:29 [notice] 32#32: exit
-2022/06/25 16:12:29 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2022/06/25 16:12:29 [notice] 1#1: worker process 33 exited with code 0
-2022/06/25 16:12:29 [notice] 1#1: signal 29 (SIGIO) received
-2022/06/25 16:12:29 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2022/06/25 16:12:29 [notice] 1#1: worker process 34 exited with code 0
-2022/06/25 16:12:29 [notice] 1#1: signal 29 (SIGIO) received
-2022/06/25 16:12:29 [notice] 1#1: signal 17 (SIGCHLD) received from 35
-2022/06/25 16:12:29 [notice] 1#1: worker process 35 exited with code 0
-2022/06/25 16:12:29 [notice] 1#1: signal 29 (SIGIO) received
-2022/06/25 16:12:29 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2022/06/25 16:12:29 [notice] 1#1: worker process 32 exited with code 0
-2022/06/25 16:12:29 [notice] 1#1: exit
-2022/08/12 20:00:44 [notice] 1#1: using the "epoll" event method
-2022/08/12 20:00:44 [notice] 1#1: nginx/1.22.0
-2022/08/12 20:00:44 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
-2022/08/12 20:00:44 [notice] 1#1: OS: Linux 5.10.76-linuxkit
-2022/08/12 20:00:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2022/08/12 20:00:44 [notice] 1#1: start worker processes
-2022/08/12 20:00:44 [notice] 1#1: start worker process 32
-2022/08/12 20:00:44 [notice] 1#1: start worker process 33
-2022/08/12 20:00:44 [notice] 1#1: start worker process 34
-2022/08/12 20:00:44 [notice] 1#1: start worker process 35
-2022/08/12 20:14:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2022/08/12 20:14:41 [notice] 33#33: gracefully shutting down
-2022/08/12 20:14:41 [notice] 35#35: gracefully shutting down
-2022/08/12 20:14:41 [notice] 32#32: gracefully shutting down
-2022/08/12 20:14:41 [notice] 34#34: gracefully shutting down
-2022/08/12 20:14:41 [notice] 33#33: exiting
-2022/08/12 20:14:41 [notice] 35#35: exiting
-2022/08/12 20:14:41 [notice] 34#34: exiting
-2022/08/12 20:14:41 [notice] 32#32: exiting
-2022/08/12 20:14:41 [notice] 33#33: exit
-2022/08/12 20:14:41 [notice] 35#35: exit
-2022/08/12 20:14:41 [notice] 34#34: exit
-2022/08/12 20:14:41 [notice] 32#32: exit
-2022/08/12 20:14:41 [notice] 1#1: signal 17 (SIGCHLD) received from 35
-2022/08/12 20:14:41 [notice] 1#1: worker process 33 exited with code 0
-2022/08/12 20:14:41 [notice] 1#1: worker process 35 exited with code 0
-2022/08/12 20:14:41 [notice] 1#1: signal 29 (SIGIO) received
-2022/08/12 20:14:41 [notice] 1#1: signal 17 (SIGCHLD) received from 33
-2022/08/12 20:14:41 [notice] 1#1: worker process 34 exited with code 0
-2022/08/12 20:14:41 [notice] 1#1: signal 29 (SIGIO) received
-2022/08/12 20:14:41 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2022/08/12 20:14:41 [notice] 1#1: worker process 32 exited with code 0
-2022/08/12 20:14:41 [notice] 1#1: exit
-2022/08/13 17:02:17 [notice] 1#1: using the "epoll" event method
-2022/08/13 17:02:17 [notice] 1#1: nginx/1.22.0
-2022/08/13 17:02:17 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
-2022/08/13 17:02:17 [notice] 1#1: OS: Linux 5.10.76-linuxkit
-2022/08/13 17:02:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2022/08/13 17:02:17 [notice] 1#1: start worker processes
-2022/08/13 17:02:17 [notice] 1#1: start worker process 34
-2022/08/13 17:02:17 [notice] 1#1: start worker process 35
-2022/08/13 17:02:17 [notice] 1#1: start worker process 36
-2022/08/13 17:02:17 [notice] 1#1: start worker process 37
-2022/08/13 17:04:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2022/08/13 17:04:03 [notice] 34#34: gracefully shutting down
-2022/08/13 17:04:03 [notice] 35#35: gracefully shutting down
-2022/08/13 17:04:03 [notice] 37#37: gracefully shutting down
-2022/08/13 17:04:03 [notice] 36#36: gracefully shutting down
-2022/08/13 17:04:03 [notice] 34#34: exiting
-2022/08/13 17:04:03 [notice] 35#35: exiting
-2022/08/13 17:04:03 [notice] 37#37: exiting
-2022/08/13 17:04:03 [notice] 36#36: exiting
-2022/08/13 17:04:03 [notice] 34#34: exit
-2022/08/13 17:04:03 [notice] 35#35: exit
-2022/08/13 17:04:03 [notice] 37#37: exit
-2022/08/13 17:04:03 [notice] 36#36: exit
-2022/08/13 17:04:03 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2022/08/13 17:04:03 [notice] 1#1: worker process 34 exited with code 0
-2022/08/13 17:04:03 [notice] 1#1: signal 29 (SIGIO) received
-2022/08/13 17:04:03 [notice] 1#1: signal 17 (SIGCHLD) received from 35
-2022/08/13 17:04:03 [notice] 1#1: worker process 35 exited with code 0
-2022/08/13 17:04:03 [notice] 1#1: worker process 37 exited with code 0
-2022/08/13 17:04:03 [notice] 1#1: signal 17 (SIGCHLD) received from 36
-2022/08/13 17:04:03 [notice] 1#1: worker process 36 exited with code 0
-2022/08/13 17:04:03 [notice] 1#1: signal 29 (SIGIO) received
-2022/08/13 17:04:03 [notice] 1#1: exit
-2022/08/13 17:30:45 [notice] 1#1: using the "epoll" event method
-2022/08/13 17:30:45 [notice] 1#1: nginx/1.22.0
-2022/08/13 17:30:45 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
-2022/08/13 17:30:45 [notice] 1#1: OS: Linux 5.10.76-linuxkit
-2022/08/13 17:30:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2022/08/13 17:30:45 [notice] 1#1: start worker processes
-2022/08/13 17:30:45 [notice] 1#1: start worker process 31
-2022/08/13 17:30:45 [notice] 1#1: start worker process 32
-2022/08/13 17:30:45 [notice] 1#1: start worker process 33
-2022/08/13 17:30:45 [notice] 1#1: start worker process 34
-2022/08/13 17:34:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
-2022/08/13 17:34:47 [notice] 32#32: gracefully shutting down
-2022/08/13 17:34:47 [notice] 33#33: gracefully shutting down
-2022/08/13 17:34:47 [notice] 31#31: gracefully shutting down
-2022/08/13 17:34:47 [notice] 34#34: gracefully shutting down
-2022/08/13 17:34:47 [notice] 32#32: exiting
-2022/08/13 17:34:47 [notice] 33#33: exiting
-2022/08/13 17:34:47 [notice] 31#31: exiting
-2022/08/13 17:34:47 [notice] 34#34: exiting
-2022/08/13 17:34:47 [notice] 34#34: exit
-2022/08/13 17:34:47 [notice] 32#32: exit
-2022/08/13 17:34:47 [notice] 33#33: exit
-2022/08/13 17:34:47 [notice] 31#31: exit
-2022/08/13 17:34:47 [notice] 1#1: signal 17 (SIGCHLD) received from 34
-2022/08/13 17:34:47 [notice] 1#1: worker process 34 exited with code 0
-2022/08/13 17:34:47 [notice] 1#1: signal 29 (SIGIO) received
-2022/08/13 17:34:47 [notice] 1#1: signal 17 (SIGCHLD) received from 32
-2022/08/13 17:34:47 [notice] 1#1: worker process 31 exited with code 0
-2022/08/13 17:34:47 [notice] 1#1: worker process 32 exited with code 0
-2022/08/13 17:34:47 [notice] 1#1: signal 29 (SIGIO) received
-2022/08/13 17:34:47 [notice] 1#1: signal 17 (SIGCHLD) received from 31
-2022/08/13 17:34:47 [notice] 1#1: worker process 33 exited with code 0
-2022/08/13 17:34:47 [notice] 1#1: exit
-2022/09/09 03:23:46 [notice] 1#1: using the "epoll" event method
-2022/09/09 03:23:46 [notice] 1#1: nginx/1.22.0
-2022/09/09 03:23:46 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
-2022/09/09 03:23:46 [notice] 1#1: OS: Linux 5.10.76-linuxkit
-2022/09/09 03:23:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2022/09/09 03:23:46 [notice] 1#1: start worker processes
-2022/09/09 03:23:46 [notice] 1#1: start worker process 33
-2022/09/09 03:23:46 [notice] 1#1: start worker process 34
-2022/09/09 03:23:46 [notice] 1#1: start worker process 35
-2022/09/09 03:23:46 [notice] 1#1: start worker process 36
+2022/09/15 17:38:11 [emerg] 1#1: invalid number of arguments in "root" directive in /etc/nginx/conf.d/default.conf:16
+2022/09/15 17:39:12 [emerg] 1#1: invalid number of arguments in "root" directive in /etc/nginx/conf.d/default.conf:16
+2022/09/15 17:40:12 [notice] 1#1: using the "epoll" event method
+2022/09/15 17:40:12 [notice] 1#1: nginx/1.22.0
+2022/09/15 17:40:12 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/15 17:40:12 [notice] 1#1: OS: Linux 5.15.0-1019-aws
+2022/09/15 17:40:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/15 17:40:12 [notice] 1#1: start worker processes
+2022/09/15 17:40:12 [notice] 1#1: start worker process 31
+2022/09/15 17:40:12 [notice] 1#1: start worker process 32
+2022/09/15 17:40:40 [error] 32#32: *7 "/var/www/vue/dist/index.html" is not found (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET / HTTP/1.1", host: "yla.dev.onenex.dev"
+2022/09/15 17:40:40 [error] 32#32: *7 open() "/var/www/vue/dist/favicon.ico" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /favicon.ico HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 17:55:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/15 17:55:17 [notice] 31#31: gracefully shutting down
+2022/09/15 17:55:17 [notice] 31#31: exiting
+2022/09/15 17:55:17 [notice] 32#32: gracefully shutting down
+2022/09/15 17:55:17 [notice] 32#32: exiting
+2022/09/15 17:55:17 [notice] 32#32: exit
+2022/09/15 17:55:17 [notice] 31#31: exit
+2022/09/15 17:55:17 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/15 17:55:17 [notice] 1#1: worker process 32 exited with code 0
+2022/09/15 17:55:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/15 17:55:17 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/15 17:55:17 [notice] 1#1: worker process 31 exited with code 0
+2022/09/15 17:55:17 [notice] 1#1: exit
+2022/09/15 17:55:46 [notice] 1#1: using the "epoll" event method
+2022/09/15 17:55:46 [notice] 1#1: nginx/1.22.0
+2022/09/15 17:55:46 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/15 17:55:46 [notice] 1#1: OS: Linux 5.15.0-1019-aws
+2022/09/15 17:55:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/15 17:55:46 [notice] 1#1: start worker processes
+2022/09/15 17:55:46 [notice] 1#1: start worker process 30
+2022/09/15 17:55:46 [notice] 1#1: start worker process 31
+2022/09/15 18:20:06 [error] 31#31: *1 "/var/www/vue/dist/index.html" is not found (2: No such file or directory), client: 139.59.88.54, server: yla.dev.onenex.dev, request: "GET / HTTP/1.1", host: "18.140.225.183"
+2022/09/15 18:31:06 [error] 30#30: *30 "/var/www/vue/dist/index.html" is not found (2: No such file or directory), client: 185.194.142.241, server: yla.dev.onenex.dev, request: "HEAD / HTTP/1.1", host: "yla.dev.onenex.dev"
+2022/09/15 18:31:06 [error] 30#30: *29 "/var/www/vue/dist/index.html" is not found (2: No such file or directory), client: 185.194.142.241, server: yla.dev.onenex.dev, request: "HEAD / HTTP/1.1", host: "yla.dev.onenex.dev"
+2022/09/15 18:33:17 [error] 31#31: *42 open() "/var/www/vue/dist/data/products-small.json" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /data/products-small.json HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:17 [error] 31#31: *46 open() "/var/www/vue/dist/images/themes/bootstrap4-light-blue.svg" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/bootstrap4-light-blue.svg HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:17 [error] 30#30: *43 open() "/var/www/vue/dist/images/themes/bootstrap4-dark-blue.svg" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/bootstrap4-dark-blue.svg HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:17 [error] 31#31: *47 open() "/var/www/vue/dist/images/themes/bootstrap4-light-purple.svg" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/bootstrap4-light-purple.svg HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:17 [error] 31#31: *46 open() "/var/www/vue/dist/images/themes/lara-light-indigo.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/lara-light-indigo.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:17 [error] 31#31: *47 open() "/var/www/vue/dist/images/themes/md-dark-indigo.svg" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/md-dark-indigo.svg HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:17 [error] 30#30: *45 open() "/var/www/vue/dist/images/themes/fluent-light.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/fluent-light.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:17 [error] 30#30: *43 open() "/var/www/vue/dist/images/themes/lara-dark-teal.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/lara-dark-teal.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:17 [error] 31#31: *47 open() "/var/www/vue/dist/images/themes/lara-dark-indigo.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/lara-dark-indigo.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:17 [error] 31#31: *46 open() "/var/www/vue/dist/images/themes/lara-dark-purple.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/lara-dark-purple.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:17 [error] 30#30: *45 open() "/var/www/vue/dist/images/themes/lara-light-teal.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/lara-light-teal.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:17 [error] 30#30: *43 open() "/var/www/vue/dist/images/themes/lara-light-blue.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/lara-light-blue.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 31#31: *42 open() "/var/www/vue/dist/images/themes/md-light-deeppurple.svg" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/md-light-deeppurple.svg HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 30#30: *43 open() "/var/www/vue/dist/images/themes/md-dark-deeppurple.svg" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/md-dark-deeppurple.svg HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 31#31: *47 open() "/var/www/vue/dist/images/themes/lara-dark-blue.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/lara-dark-blue.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 30#30: *45 open() "/var/www/vue/dist/images/themes/md-light-indigo.svg" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/md-light-indigo.svg HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 31#31: *46 open() "/var/www/vue/dist/images/themes/tailwind-light.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/tailwind-light.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 31#31: *42 open() "/var/www/vue/dist/images/themes/bootstrap4-dark-purple.svg" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/bootstrap4-dark-purple.svg HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 31#31: *47 open() "/var/www/vue/dist/images/themes/lara-light-purple.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/lara-light-purple.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 31#31: *46 open() "/var/www/vue/dist/images/themes/saga-blue.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/saga-blue.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 30#30: *43 open() "/var/www/vue/dist/images/themes/saga-green.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/saga-green.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 30#30: *45 open() "/var/www/vue/dist/images/themes/saga-orange.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/saga-orange.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 31#31: *42 open() "/var/www/vue/dist/images/themes/saga-purple.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/saga-purple.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 31#31: *46 open() "/var/www/vue/dist/images/themes/arya-blue.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/arya-blue.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 31#31: *47 open() "/var/www/vue/dist/images/themes/vela-green.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/vela-green.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 30#30: *44 open() "/var/www/vue/dist/images/themes/vela-blue.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/vela-blue.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 30#30: *43 open() "/var/www/vue/dist/images/themes/vela-orange.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/vela-orange.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 30#30: *45 open() "/var/www/vue/dist/images/themes/vela-purple.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/vela-purple.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 31#31: *46 open() "/var/www/vue/dist/images/themes/arya-green.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/arya-green.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 30#30: *45 open() "/var/www/vue/dist/images/themes/arya-purple.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/arya-purple.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:18 [error] 31#31: *42 open() "/var/www/vue/dist/images/themes/arya-orange.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/arya-orange.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:26 [error] 31#31: *42 open() "/var/www/vue/dist/data/products.json" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /data/products.json HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/list"
+2022/09/15 18:33:36 [error] 30#30: *43 open() "/var/www/vue/dist/list" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /list HTTP/1.1", host: "yla.dev.onenex.dev"
+2022/09/15 18:33:48 [error] 31#31: *47 open() "/var/www/vue/dist/data/products-small.json" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /data/products-small.json HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 31#31: *46 open() "/var/www/vue/dist/images/themes/md-light-indigo.svg" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/md-light-indigo.svg HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 30#30: *44 open() "/var/www/vue/dist/images/themes/lara-light-blue.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/lara-light-blue.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 31#31: *42 open() "/var/www/vue/dist/images/themes/bootstrap4-light-blue.svg" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/bootstrap4-light-blue.svg HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 31#31: *47 open() "/var/www/vue/dist/images/themes/lara-dark-teal.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/lara-dark-teal.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 30#30: *44 open() "/var/www/vue/dist/images/themes/md-dark-deeppurple.svg" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/md-dark-deeppurple.svg HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 31#31: *46 open() "/var/www/vue/dist/images/themes/lara-light-indigo.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/lara-light-indigo.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 31#31: *42 open() "/var/www/vue/dist/images/themes/lara-dark-indigo.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/lara-dark-indigo.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 31#31: *47 open() "/var/www/vue/dist/images/themes/md-dark-indigo.svg" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/md-dark-indigo.svg HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 30#30: *44 open() "/var/www/vue/dist/images/themes/bootstrap4-dark-blue.svg" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/bootstrap4-dark-blue.svg HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 31#31: *46 open() "/var/www/vue/dist/images/themes/lara-dark-blue.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/lara-dark-blue.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 31#31: *42 open() "/var/www/vue/dist/images/themes/tailwind-light.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/tailwind-light.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 30#30: *45 open() "/var/www/vue/dist/images/themes/lara-light-teal.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/lara-light-teal.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 31#31: *47 open() "/var/www/vue/dist/images/themes/md-light-deeppurple.svg" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/md-light-deeppurple.svg HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 30#30: *44 open() "/var/www/vue/dist/images/themes/lara-dark-purple.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/lara-dark-purple.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 31#31: *46 open() "/var/www/vue/dist/images/themes/bootstrap4-light-purple.svg" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/bootstrap4-light-purple.svg HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 31#31: *42 open() "/var/www/vue/dist/images/themes/lara-light-purple.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/lara-light-purple.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 30#30: *45 open() "/var/www/vue/dist/images/themes/bootstrap4-dark-purple.svg" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/bootstrap4-dark-purple.svg HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 31#31: *47 open() "/var/www/vue/dist/images/themes/fluent-light.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/fluent-light.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 31#31: *47 open() "/var/www/vue/dist/images/themes/saga-blue.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/saga-blue.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 31#31: *42 open() "/var/www/vue/dist/images/themes/saga-green.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/saga-green.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:48 [error] 31#31: *46 open() "/var/www/vue/dist/images/themes/saga-orange.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/saga-orange.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:49 [error] 31#31: *42 open() "/var/www/vue/dist/images/themes/vela-green.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/vela-green.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:49 [error] 30#30: *45 open() "/var/www/vue/dist/images/themes/saga-purple.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/saga-purple.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:49 [error] 30#30: *44 open() "/var/www/vue/dist/images/themes/vela-blue.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/vela-blue.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:49 [error] 31#31: *46 open() "/var/www/vue/dist/images/themes/vela-orange.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/vela-orange.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:49 [error] 31#31: *47 open() "/var/www/vue/dist/images/themes/vela-purple.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/vela-purple.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:49 [error] 30#30: *45 open() "/var/www/vue/dist/images/themes/arya-blue.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/arya-blue.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:49 [error] 30#30: *44 open() "/var/www/vue/dist/images/themes/arya-green.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/arya-green.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:49 [error] 31#31: *42 open() "/var/www/vue/dist/images/themes/arya-orange.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/arya-orange.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:33:49 [error] 31#31: *46 open() "/var/www/vue/dist/images/themes/arya-purple.png" failed (2: No such file or directory), client: 18.143.25.43, server: yla.dev.onenex.dev, request: "GET /images/themes/arya-purple.png HTTP/1.1", host: "yla.dev.onenex.dev", referrer: "https://yla.dev.onenex.dev/"
+2022/09/15 18:34:52 [error] 31#31: *49 open() "/var/www/vue/dist/.env" failed (2: No such file or directory), client: 20.83.49.68, server: yla.dev.onenex.dev, request: "GET /.env HTTP/1.1", host: "18.140.225.183"
+2022/09/15 18:34:52 [error] 31#31: *51 open() "/var/www/vue/dist/_profiler/phpinfo" failed (2: No such file or directory), client: 20.83.49.68, server: yla.dev.onenex.dev, request: "GET /_profiler/phpinfo HTTP/1.1", host: "18.140.225.183"
+2022/09/15 18:34:53 [error] 31#31: *52 open() "/var/www/vue/dist/debug/default/view" failed (2: No such file or directory), client: 20.83.49.68, server: yla.dev.onenex.dev, request: "GET /debug/default/view?panel=config HTTP/1.1", host: "18.140.225.183"
+2022/09/15 18:34:53 [error] 31#31: *53 open() "/var/www/vue/dist/config.json" failed (2: No such file or directory), client: 20.83.49.68, server: yla.dev.onenex.dev, request: "GET /config.json HTTP/1.1", host: "18.140.225.183"
+2022/09/15 18:34:54 [error] 31#31: *54 open() "/var/www/vue/dist/.git/config" failed (2: No such file or directory), client: 20.83.49.68, server: yla.dev.onenex.dev, request: "GET /.git/config HTTP/1.1", host: "18.140.225.183"
+2022/09/15 18:55:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/15 18:55:51 [notice] 30#30: gracefully shutting down
+2022/09/15 18:55:51 [notice] 31#31: gracefully shutting down
+2022/09/15 18:55:51 [notice] 30#30: exiting
+2022/09/15 18:55:51 [notice] 31#31: exiting
+2022/09/15 18:55:51 [notice] 30#30: exit
+2022/09/15 18:55:51 [notice] 31#31: exit
+2022/09/15 18:55:51 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/09/15 18:55:51 [notice] 1#1: worker process 30 exited with code 0
+2022/09/15 18:55:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/15 18:55:51 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/15 18:55:51 [notice] 1#1: worker process 31 exited with code 0
+2022/09/15 18:55:51 [notice] 1#1: exit
+2022/09/15 18:55:52 [notice] 1#1: using the "epoll" event method
+2022/09/15 18:55:52 [notice] 1#1: nginx/1.22.0
+2022/09/15 18:55:52 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/15 18:55:52 [notice] 1#1: OS: Linux 5.15.0-1019-aws
+2022/09/15 18:55:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/15 18:55:52 [notice] 1#1: start worker processes
+2022/09/15 18:55:52 [notice] 1#1: start worker process 30
+2022/09/15 18:55:52 [notice] 1#1: start worker process 31
+2022/09/15 19:03:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/15 19:03:33 [notice] 30#30: gracefully shutting down
+2022/09/15 19:03:33 [notice] 31#31: gracefully shutting down
+2022/09/15 19:03:33 [notice] 30#30: exiting
+2022/09/15 19:03:33 [notice] 30#30: exit
+2022/09/15 19:03:33 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/09/15 19:03:33 [notice] 1#1: worker process 30 exited with code 0
+2022/09/15 19:03:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/15 19:03:39 [notice] 31#31: exiting
+2022/09/15 19:03:39 [notice] 31#31: exit
+2022/09/15 19:03:39 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/15 19:03:39 [notice] 1#1: worker process 31 exited with code 0
+2022/09/15 19:03:39 [notice] 1#1: exit
+2022/09/15 19:03:40 [notice] 1#1: using the "epoll" event method
+2022/09/15 19:03:40 [notice] 1#1: nginx/1.22.0
+2022/09/15 19:03:40 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/15 19:03:40 [notice] 1#1: OS: Linux 5.15.0-1019-aws
+2022/09/15 19:03:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/15 19:03:40 [notice] 1#1: start worker processes
+2022/09/15 19:03:40 [notice] 1#1: start worker process 32
+2022/09/15 19:03:40 [notice] 1#1: start worker process 33
+2022/09/15 19:12:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/15 19:12:11 [notice] 32#32: gracefully shutting down
+2022/09/15 19:12:11 [notice] 32#32: exiting
+2022/09/15 19:12:11 [notice] 33#33: gracefully shutting down
+2022/09/15 19:12:11 [notice] 32#32: exit
+2022/09/15 19:12:11 [notice] 33#33: exiting
+2022/09/15 19:12:11 [notice] 33#33: exit
+2022/09/15 19:12:11 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/15 19:12:11 [notice] 1#1: worker process 32 exited with code 0
+2022/09/15 19:12:11 [notice] 1#1: worker process 33 exited with code 0
+2022/09/15 19:12:11 [notice] 1#1: exit
+2022/09/15 19:12:13 [notice] 1#1: using the "epoll" event method
+2022/09/15 19:12:13 [notice] 1#1: nginx/1.22.0
+2022/09/15 19:12:13 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/09/15 19:12:13 [notice] 1#1: OS: Linux 5.15.0-1019-aws
+2022/09/15 19:12:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/15 19:12:13 [notice] 1#1: start worker processes
+2022/09/15 19:12:13 [notice] 1#1: start worker process 22
+2022/09/15 19:12:13 [notice] 1#1: start worker process 23

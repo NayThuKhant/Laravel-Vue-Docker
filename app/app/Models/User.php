@@ -2,44 +2,23 @@
 
 namespace App\Models;
 
+use App\Helpers\StringHelper;
+use App\Traits\BasicAudit;
+use App\Traits\SnowflakeID;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-use Laravel\Sanctum\HasApiTokens;
+use Illuminate\Support\Facades\Hash;
+use Laravel\Passport\HasApiTokens;
+use Spatie\Permission\Traits\HasPermissions;
+use Spatie\Permission\Traits\HasRoles;
 
-/**
- * App\Models\User
- *
- * @property int $id
- * @property string $name
- * @property string $email
- * @property \Illuminate\Support\Carbon|null $email_verified_at
- * @property string $password
- * @property string|null $remember_token
- * @property \Illuminate\Support\Carbon|null $created_at
- * @property \Illuminate\Support\Carbon|null $updated_at
- * @property-read \Illuminate\Notifications\DatabaseNotificationCollection|\Illuminate\Notifications\DatabaseNotification[] $notifications
- * @property-read int|null $notifications_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Laravel\Sanctum\PersonalAccessToken[] $tokens
- * @property-read int|null $tokens_count
- * @method static \Database\Factories\UserFactory factory(...$parameters)
- * @method static \Illuminate\Database\Eloquent\Builder|User newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|User newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|User query()
- * @method static \Illuminate\Database\Eloquent\Builder|User whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|User whereEmail($value)
- * @method static \Illuminate\Database\Eloquent\Builder|User whereEmailVerifiedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|User whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|User whereName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|User wherePassword($value)
- * @method static \Illuminate\Database\Eloquent\Builder|User whereRememberToken($value)
- * @method static \Illuminate\Database\Eloquent\Builder|User whereUpdatedAt($value)
- * @mixin \Eloquent
- */
-class User extends Authenticatable
+class User extends Authenticatable implements MustVerifyEmail
 {
-    use HasApiTokens, HasFactory, Notifiable;
+    use SnowflakeID, HasApiTokens, HasFactory, Notifiable, HasRoles, HasPermissions, SoftDeletes, BasicAudit;
 
     /**
      * The attributes that are mass assignable.
@@ -48,11 +27,15 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
+        'username',
         'email',
+        'country_code',
+        'mobile_number',
         'password',
-        'role',
-        'phone_number',
-
+        'status',
+        'email_verified_at',
+        'mobile_verified_at',
+        'email_verified_at',
     ];
 
     /**
@@ -72,22 +55,28 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+        'mobile_verified_at' => 'datetime',
     ];
 
-    public function isAdmin()
+    protected function allowedPermissions(): Attribute
     {
-        return $this->role === 'admin';
-    }
-    public function isCashier()
-    {
-        return $this->role === 'cashier';
-    }
-    public function isStocker()
-    {
-        return $this->role === 'stocker';
+        return Attribute::make(
+            get: fn () => $this->getAllPermissions()->map(fn ($permission) => StringHelper::extractPermissionName($permission->name))
+        );
     }
 
-    public function phones () {
-        return $this->belongsToMany(Phone::class)->withPivot(['quantity']);
+    protected static function booted()
+    {
+        static::creating(function ($user) {
+            if (Hash::needsRehash($user->password)) {
+                $user->password = Hash::make($user->password);
+            }
+        });
+
+        static::updating(function ($user) {
+            if (Hash::needsRehash($user->password)) {
+                $user->password = Hash::make($user->password);
+            }
+        });
     }
 }

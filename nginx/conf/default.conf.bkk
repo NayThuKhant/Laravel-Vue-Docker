@@ -1,0 +1,51 @@
+#upstream vuejs {
+  #server vuejs:3000;
+#}
+
+#upstream laravel {
+  #server laravel:9000;
+#}
+
+server {
+  listen 80;
+  server_name yla.dev.onenex.dev;
+  index index.php index.html;
+  error_log  /var/log/nginx/error.log;
+  access_log /var/log/nginx/access.log;
+  root /var/www/html/public;
+  listen [::]:443 ssl ipv6only=on; # managed by Certbot
+  listen 443 ssl; # managed by Certbot
+  ssl_certificate /etc/ssl/certs/fullchain.pem; # managed by Certbot
+  ssl_certificate_key /etc/ssl/certs/privkey.pem; # managed by Certbot
+
+  location / {
+      proxy_pass http://vue:3000;
+  }
+
+}
+
+server {
+  listen 80;
+  server_name yla-api.dev.onenex.dev;
+  index index.php index.html;
+  error_log  /var/log/nginx/error.log;
+  access_log /var/log/nginx/access.log;
+  root /var/www/app/public;
+  listen 443 ssl;
+  listen [::]:443 ssl;
+  ssl_certificate /etc/ssl/certs/fullchain1.pem;
+  ssl_certificate_key /etc/ssl/certs/privkey1.pem;
+
+  location ~ \.php$ {
+        fastcgi_pass laravel:9000;
+        fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
+        fastcgi_index index.php;
+        fastcgi_param PATH_INFO $fastcgi_path_info;
+        include fastcgi_params;
+  }
+
+  location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+}

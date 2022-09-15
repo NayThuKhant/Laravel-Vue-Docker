@@ -25,6 +25,8 @@ RUN pecl install -o -f redis \
 #   COMPOSER
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
+#   NPM
+RUN npm install
 
 #   USER
 #ARG user=naythukhant

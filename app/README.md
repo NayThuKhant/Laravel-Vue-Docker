@@ -1,64 +1,76 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+LARAVEL LUCID ARCHITECTURE STATER KIT
 
-## About Laravel
+### ABOUT STATER KIT
+This stater kit is based on lucid architecture (**[monolith](https://docs.lucidarch.dev/micro-vs-monolith/#monolith)**) for laravel framework.
+- **[Laravel Framework](https://laravel.com/)**
+- **[Lucid Architecture](https://lucidarch.dev/)**
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### REQUIREMENTS
+- **[PHP](https://www.php.net/)** > 8.1
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### INSTALLATION
+```shell
+git clone https://github.com/onenextech/Laravel-Lucid-Architecutre-Stater-Kit.git 
+cd Laravel-Lucid-Architecutre-Stater-Kit
+cp .env.example .env #Don't forget to configure your .env file
+composer install
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+php artisan key:generate
+php artisan migrate
+php artisan db:seed --class=ApplicationServiceSeeder
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+php artisan passport:install
+```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+Add the following line to your shell profile (~/.bash_profile, ~/.bashrc, ~/.zshrc), lucid & pint command will be usable in your application.
+```shell
+export PATH="./vendor/bin:$PATH"
+```
+(~/.bash_profile, ~/.bashrc, ~/.zshrc)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+###Lucid
+```shell
+lucid ...
+```
 
-### Premium Partners
+###Linting
+```shell
+pint
+```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
-## Contributing
+### IMPORTANT
+- You will need to register your every service of you lucid app with your desired configurations to the lucid_application_providers array of the following config.
+[config/core.php](./config/core.php).
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- Do explore available commands at [Lucid Cli Reference](https://docs.lucidarch.dev/cli/) and use artisan command if only lucid can't provide what you need.
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+#### And do the following step if only you've turned on the toggle_app_services config under core.php.
+You may need to re-run [App\Database\Seeders\ApplicationServiceSeeder](./database/seeders/ApplicationServiceSeeder.php) to reflect the changes.
 
-## Security Vulnerabilities
+For the purpose of enhancing application performance, we use registration of Application Services from cache + database approach here.
+If you feel application services are not registered as expected, please run
+```shell
+php artisan cache:clear
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### API DOCUMENTATION
 
-## License
+We use the Scribe to generate the API documentation. So, please do visit [Scribe documentation](https://scribe.knuckles.wtf/laravel) website to see the documentation and follow the instructions.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```shell
+php artisan scribe:generate     
+```
+
+### NOTES
+
+##### Passport
+Laravel passport doesn't allow as to disable its oauth routes by default, and I had to disable it by overriding its provider with [App\Providers\PassportServiceProvider](./app/Providers/PassportServiceProvider.php)
+However, please feel free to toggle the registration of the passport oauth routes in above provider.
+
+
+
